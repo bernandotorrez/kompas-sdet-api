@@ -1,0 +1,24 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "Automated API Testing by Bernand D H",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Automated",
+    "API",
+    "Testing",
+    "by",
+    "Bernand",
+    "D",
+    "H"
+  ],
+  "author": "Bernand D H",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.2.5",
+    "supertest": "^6.1.6"
+  }
+}
