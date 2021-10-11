@@ -100,7 +100,7 @@ describe(`PUT ${routes.task}/:id`, () => {
     })
 })
 
-describe(`GET ${routes.task}/:id`, () => {
+describe(`DELETE ${routes.task}/:id`, () => {
     test('it should return Task not found', async () => {
         const response = await request(routes.url)
         .delete(routes.task+'/9999')
